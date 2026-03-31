@@ -37,6 +37,14 @@ export default function Footer() {
             <li><a href="mailto:contact@babi.fr" className="hover:text-lavande transition-colors">contact@babi.fr</a></li>
           </ul>
         </div>
+
+        <div className="flex flex-col items-center md:items-end">
+          <h4 className="font-semibold mb-4 text-white">Scanner / Partager</h4>
+          <div className="bg-white p-2 rounded-xl shadow-lg w-32 h-32">
+            <img src="/qrcode-babi.png" alt="BABI QR Code" className="w-full h-full object-contain" />
+          </div>
+          <p className="text-[10px] text-muted mt-2 text-center md:text-right uppercase tracking-widest font-bold">babi-chi.vercel.app</p>
+        </div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-muted/20 text-center text-sm text-muted">
