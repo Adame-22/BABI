@@ -12,7 +12,7 @@ export default function Footer() {
             <span className="font-bold text-xl tracking-tight">BABI</span>
           </Link>
           <p className="text-muted text-sm max-w-sm">
-            BABI est un bracelet connecté qui collecte et analyse en continu les
+            BABI (Baby Alert Biometric Intelligence) est un bracelet de cheville connecté qui collecte et analyse en continu les
             données de santé du bébé 24h/24 pour permettre aux jeunes parents
             d'avoir une vision complète de la santé de leur enfant.
           </p>
@@ -40,7 +40,8 @@ export default function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-muted/20 text-center text-sm text-muted">
-        <p>© {new Date().getFullYear()} BABI. Projet Étudiant - ISD Flaubert MDC 2026. Tous droits réservés.</p>
+        <p className="mb-2">© {new Date().getFullYear()} BABI. Projet Étudiant - ISD Flaubert MDC 2026.</p>
+        <p className="text-xs text-muted/60">Une équipe passionnée : Adame, Nadia, Wayan, Annaëlle, Sthely</p>
       </div>
     </footer>
   );

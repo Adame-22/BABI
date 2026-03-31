@@ -5,12 +5,11 @@ import { Users } from "lucide-react";
 
 export default function AProposPage() {
   const team = [
-    { name: "Adame", role: "Opérations" },
-    { name: "Donia", role: "Marketing & IA" },
-    { name: "Marie", role: "Commercial" },
-    { name: "Johana", role: "Communication" },
-    { name: "Noemy", role: "Finance" },
-    { name: "Haïdy", role: "Client & Suivi" },
+    { name: "Adame", role: "Équipe BABI" },
+    { name: "Nadia", role: "Équipe BABI" },
+    { name: "Wayan", role: "Équipe BABI" },
+    { name: "Annaëlle", role: "Équipe BABI" },
+    { name: "Sthely", role: "Équipe BABI" },
   ];
 
   return (
@@ -31,8 +30,8 @@ export default function AProposPage() {
           <div className="bg-ciel/30 border border-lin rounded-3xl p-10 mb-16 text-left shadow-sm">
             <h2 className="text-2xl font-bold text-text mb-4">Notre Histoire</h2>
             <p className="text-muted leading-relaxed">
-              BABI est né d'un projet étudiant ambitieux mené par 6 étudiantes de l'<strong>ISD Flaubert</strong> (MDC 2026). 
-              Confrontées aux statistiques alarmantes concernant la mort inattendue du nourrisson 
+              BABI (Baby Alert Biometric Intelligence) est né d'un projet étudiant ambitieux mené par 5 étudiants de l'<strong>ISD Flaubert</strong> (MDC 2026). 
+              Confrontés aux statistiques alarmantes concernant la mort inattendue du nourrisson 
               et constatant les limites technologiques des solutions actuelles sur le marché, 
               nous avons décidé de concevoir le moniteur de santé pour bébé le plus avancé, rassurant et fiable.
             </p>

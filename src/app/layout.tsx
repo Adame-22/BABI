@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#ffffff] text-[#2C2C2A] min-h-screen flex flex-col pt-20`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col pt-20`}
       >
         <Navbar />
         <main className="flex-1">
